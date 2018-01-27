@@ -1,0 +1,26 @@
+.button {
+  background: white;
+  border: 1px solid #eaeaea;
+  color: black;
+  cursor: pointer;
+  line-height: 1;
+  margin-left: 1.2rem;
+  outline: none;
+  padding: 1.2rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+
+  &:hover, &:focus {
+    // background: #fafafa;
+  }
+
+  &:active {
+    // background: #dddddd;
+    transform: scale(0.95);
+  }
+}
+
+.button--round {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}
